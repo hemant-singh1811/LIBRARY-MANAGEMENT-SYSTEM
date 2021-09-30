@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Book</title>
+    <link rel="stylesheet" href="./search_book.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+    
+</head>
+
+<body >
+    <a href="/"><img src="./icons/library.png" alt=""></a>
+    <div id="main-container">
+        <input type="text" name="book" id="book" placeholder="Searching by...">
+        <!-- <p id="error" style="display: none; color: red;">select the search option</p> -->
+        <select name="select" id="select">
+            <option value="1" selected="selected">Search by</option>
+            <option value="book_id">book id</option>
+            <option value="book_name">book name</option>
+        </select>
+        <!-- <button id="search-book-btn">search</button> -->
+
+    </div>
+ 
+    <div id="result">
+        <ul id="book_results" style="padding:0;margin:0" >
+            <!-- <li><a href="/college/delhi-college-of-technology-and-management-dctm-palwal"
+                    >Delhi College of Technology and Management (DCTM) Palwal</a>
+                <span>this is sample</span>
+                 <span>this is price</span>
+                 <span>this is pages</span>
+                  <span>this is sample authoor name just for checking </span>
+                </li>  -->
+            
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./search_book.js"></script>
+</body>
+
+</html>

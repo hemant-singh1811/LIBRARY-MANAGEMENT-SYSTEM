@@ -1,0 +1,20 @@
+  
+                                         #STILL PENDING 
+                                         
+
+1. Add phone icon section on main page of -> display the information current issue book and return book
+                                          -> on display the information cuurent issue book seprate the section on late book(those who taken the book more the 15 days) show that notify feature easily implement
+2.In return section issued book display in much more better form 
+  // completed In return section on click the bookid , bookid automatically filled on "enter the book id of return book" input 
+
+
+3. implement the feature of maximum 2 books can issue if more than that show the message that it already issuue 2 book -> also a check box is display if it tick on it then click the issue button then books issue
+
+4. make a issued pages -> after the book is issue to user then this pages is display which contains the total books issue to user and also diaplay the cuurent issue book information 
+
+5. make a student pages which display the  all student also the search box (for the search the student by student id, student name ( input box and select option (student_id , student name)))
+
+6. make a books pages which display the all books also the search box (for the search the book by book id, book name ( input box and select option (book_id , book name)))
+
+7. during add book takes book photo as in input and save it into database -> also diaplay the book photo on issue time and return time;
+

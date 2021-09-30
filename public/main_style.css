@@ -1,0 +1,80 @@
+img{
+      width: 100px;
+      height: 120px;
+    padding: auto;
+    border: 0;
+    outline: 0;
+}
+body{
+    background-image: url(./icons/sig.jpeg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+}
+
+h3{
+    font-size: 20px;
+    text-transform:capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    outline: 0;
+    border: 0;
+}
+.heading{
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+}
+#lib{
+    width: 200px;
+    height: 150px;
+    margin-left: 42%;
+    margin-right: 0;
+}
+#main{
+    background-color: rgb(70 53 53 / 51%);
+    border-radius: 5px;
+    padding: 15px;
+    padding-right: 0px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#main:hover{
+   
+    background-color:  rgb(70 53 53 / 59%);
+}
+a{
+  margin-bottom: 0px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+h3{
+    margin-top: 0px;
+    padding: 0px;
+    color: white;
+}
+img{
+    margin-bottom: 0px;
+}
+.section{
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* padding: -10px; */
+    padding-right: -10px;
+    display: inline-block;
+}
+.section2{
+    text-align: center;
+    margin: 10px;
+   
+    margin-right: 40px;
+    /* display: inline-block; */
+}

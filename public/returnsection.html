@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./icons/lib_head.svg" type="image/x-icon">
+    <title>Return_Section</title>
+    <link rel="stylesheet" href="./return.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+
+</head>
+
+<body oncopy="return false" onpaste="return false" oncut="return false">
+
+    <a href="/"><img src="./icons/library.png" alt=""></a>
+    <section id="main-cont">
+
+        <div id="return-cont">
+            <h1>Return Section</h1>
+            <div id="return-sec">
+                <label for="student-id">Student_Id : </label>
+                <input type="number" placeholder="Enter Student ID" id="student-id" class="main-ipt" required>
+                <button id="check-student" class="search-btn">search</button>
+                <p id="student-warn">no book issue to student</p>
+                <br>
+                <br>
+                <section id="details">
+
+                    <h2 id="name-lable">Name :</h2>
+                    <h3 id="student-name" disabled></h3>
+                    <br>
+
+                    <table id="book_details">
+
+
+                    </table>
+
+                    <section id="books">
+
+                    </section>
+                     <br>
+                    <input type="number" id="bookid" placeholder="enter book id for return" class="main-ipt"
+                        class="ipt">
+                    <button id="checkbtn">check</button>
+                    <br>
+
+                    <section id="returnform" style="display: none;">
+                        <form action="/returned" method="GET">
+                            <br>
+                            <h3 type="text" name="bookname" id="bookname" class="inpt"></h3>
+                            <br>
+                            <div id="fine-sec">
+                                <label for="fine" id="fine-label">Fine :</label>
+                                <input type="number" id="fine" class="ipt" disabled>
+                            </div>
+                            <br>
+                            <input type="text" name="book_name" id="book_name"  hidden>
+                            <input type="number" name="fine" id="charge" hidden>
+                            <input type="text" name="student_name" id="student_name" hidden>
+                            <input type="text" name="issue_date" id="issue_date" hidden>
+                            <input type="text" name="student_id" id="student_id" hidden>
+                            <input type="text" name="book_id" id="book_id" hidden>
+                            <button type="submit" id="return-btn">return</button>
+                        </form>
+                    </section>
+
+                </section>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./return.js"></script>
+</body>
+
+</html>

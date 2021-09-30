@@ -1,0 +1,91 @@
+#book{
+    width:50%;
+    height: 60%;
+    margin-left: 30px;
+    font-size: 120%;
+    border: 0;
+    background-color: unset;
+    font-family: 'Roboto Mono', monospace;
+    border-bottom: 2px solid #1890ff;
+    padding: 5px 10px;
+    font-weight: bolder;
+    outline: none;
+}
+body{
+    /* background-image: url(./icons/loupe.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:auto;
+    background-position: bottom; */
+    background-color: #cde0f1a8;
+}
+option{
+    cursor: pointer;
+}
+select{
+    height: 70%;
+    cursor: pointer;
+    width: 30%;
+    font-size: 100%;   
+}
+/* body{
+    background-color: #cde0f1a8;
+} */
+img{
+    display: inline-block;
+    width: 130px;
+    height: 110px;
+}
+#main-container{
+   width:50rem;
+   word-spacing: 20px;
+   background-color: aliceblue;   
+    height:40px;
+    margin-left: auto;
+    /* flex-direction: row; */
+    margin-top: -2%;
+    margin-right: auto;
+    border: 1px rgba(22, 147, 185, 0.521) solid;
+    padding: 10px;
+    padding-top: 20px;
+    /* width:40%; */
+    
+}
+
+#error{
+    word-spacing: 0%;
+}
+#result{
+    margin-top: 5px;
+    padding-top: 5px;
+    background-color: aliceblue;
+    width: fit-content;
+    height: fit-content;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+#book_results{
+    width:99%; 
+    margin-top: 10px;
+    /* margin-left: 20px; */
+    /* padding: 10px; */
+    /* border: 1px saddlebrown solid; */
+} 
+li{
+    
+    width:max-content;
+    list-style: none;
+    padding: 5px;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 0px;
+    border: 1px black solid;
+    margin: 10px;
+    display: block;
+    margin-top: 5px;
+}
+span{
+    margin-right: 50px;
+}

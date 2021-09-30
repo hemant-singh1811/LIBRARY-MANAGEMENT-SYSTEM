@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <link rel="icon" href="./icons/bokk.svg" type="image/x-icon">
+    <title>Isuue_Section</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="/"><img src="./icons/library.png" alt=""></a>
+    <section id="main">
+        <div id="main-cont" class="sec">
+            <h1>Issue section</h1>
+            <div id="cont">
+                <label for="book-no">Book_id</label>
+                <input type="number" placeholder="Enter Book No." id="book-no" class="input" required>
+                <button id="check-book" class="search-btn">search</button>
+                <p id="warn">book not found</p>
+                <br>
+                <br>
+                <section id="info" hidden>
+                    <label for="book-name">Name</label>
+                    <input type="text" class="ipt" disabled id="book-name">
+                    <label for="book-author">Author</label>
+                    <input type="text" class="ipt" disabled id="book-author">
+                    <label for="isbn">ISBN</label>
+                    <input type="text" class="ipt" disabled id="isbn">
+                    <label for="publisher">Publisher</label>
+                    <input class="ipt" type="text" disabled class="ipt" disabled id="publisher">
+                    <label for="edition">Edition</label>
+                    <input class="ipt" disabled type="text" id="edition">
+                   
+                    <label for="price">Price</label>
+                    <input class="ipt" type="text" id="price" disabled>
+                    <label for="pages">Pages</label>
+                    <input class="ipt" type="text" id="pages" disabled>
+                </section>
+        </div>
+        
+    <div id="result">
+        <ul id="book_results" style="padding:0;margin:0" >
+             
+            
+        </ul>
+    </div>
+        </div>
+        <div id="student-section" class="sec">
+            <h1>Student Section</h1>
+            <div id="student-cont" >
+                <label for="student-id" id="std-id">Student_Id</label>
+                <input type="number" placeholder="Enter Student ID" id="student-id" class="input" required>
+                <button id="check-student" class="search-btn">search</button>
+                <p id="student-warn">Student not found</p>
+                <br>
+                <br>
+                <section id="student-info" hidden>
+                    <label for="student-name">Name</label>
+                    <input type="text" class="ipt" disabled id="student-name">
+                    <br>
+                    <label for="father-name">Father Name</label>
+                    <input type="text" class="ipt" disabled id="father-name">
+                    <br>
+                    <label for="dob">DOB</label>
+                    <input type="date" class="ipt" disabled id="dob">
+                    <br>
+                    <label for="course">Course</label>
+                    <input class="ipt" type="text" disabled class="ipt" disabled id="course">
+                    <br>
+                    <label for="year">Year</label>
+                    <input class="ipt" disabled type="text" id="year">
+                   
+                    <label for="semester">Semester</label>
+                    <input class="ipt" type="text" id="semester" disabled>
+                </section>
+
+        </div>
+            
+          
+    
+        </div>
+         <div id="extra">
+            <div id="issue">
+                <form action="/issuing" id="issue-form">
+                    <input type="text" name="book_name" id="bookname" required hidden >
+                    <input type="text" name="student_name" id="studentname" required hidden>
+                    <input type="date" id="date" name="date" required >
+                    <input type="number" id="issue-book" name="book_id" required hidden>
+                    <input type="number" id="issue-student" name="student_id" required hidden >
+                    <button type="submit" id="issue-btn">Issue</button>
+                </form>
+            </div>
+         </div>
+        
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
